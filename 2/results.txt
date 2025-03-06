@@ -1,0 +1,2 @@
+Convex Hull Area: 4.030097070649951
+Fractal Dimension: -1.8683270466602482
