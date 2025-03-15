@@ -1,3 +1,35 @@
+"""
+(a) Real Systems - Physical Meaning of the Lorenz System
+
+The Lorenz system is a set of three coupled, nonlinear differential equations
+that describe chaotic fluid convection. This system was originally developed 
+by Edward Lorenz in 1963 as a simplified mathematical model of atmospheric convection.
+
+The three variables (x, y, z) do not necessarily represent physical positions but
+rather abstract state variables related to the dynamics of the system.
+
+Physical Interpretation:
+- x: Represents the convective flow rate (or horizontal velocity of fluid convection).
+- y: Represents the temperature difference between ascending and descending air currents.
+- z: Represents the deviation of the temperature profile from the linear equilibrium.
+
+System Parameters:
+- σ (sigma): The Prandtl number, which describes the ratio of momentum diffusivity 
+  to thermal diffusivity in the fluid.
+- ρ (rho): The Rayleigh number, which characterizes the temperature difference 
+  driving the convection. When ρ is large enough, the system exhibits chaotic behavior.
+- β (beta): A geometric factor related to the aspect ratio of the convection rolls.
+
+Real-World Applications:
+The Lorenz system is widely used in:
+1. Meteorology: Describing atmospheric turbulence and weather prediction.
+2. Fluid Dynamics: Modeling Rayleigh-Bénard convection in heated fluids.
+3. Climate Science: Studying the long-term unpredictability of climate systems.
+4. Engineering: Analyzing chaotic oscillations in electronic circuits and lasers.
+
+The chaotic nature of the Lorenz system is a key example of deterministic chaos, 
+where tiny changes in initial conditions lead to vastly different outcomes (the "butterfly effect").
+"""
 #b)
 import numpy as np
 import matplotlib.pyplot as plt
